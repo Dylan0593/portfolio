@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  def powershare
+  def projects
   end
 
 

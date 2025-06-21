@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   controller :pages do
     root to: "pages#home"
-    get :powershare
+    get :projects
     get :twenty_one_days_later
     get :about_me
     get :cv
