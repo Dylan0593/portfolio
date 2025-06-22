@@ -6,7 +6,7 @@ class PagesController < ApplicationController
   end
 
 
-  def twenty_one_days_later
+  def contact
   end
 
 
