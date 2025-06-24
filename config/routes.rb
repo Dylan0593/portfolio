@@ -5,8 +5,14 @@ Rails.application.routes.draw do
     get :contact
     get :about_me
     get :cv
+
+
     # can put more later???? dylan
   end
+
+
+  resources :contact_form, only: [:new, :create]
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
