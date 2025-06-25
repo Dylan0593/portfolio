@@ -42,6 +42,9 @@ gem "sassc-rails"
 gem 'mailtrap'
 gem 'mail_form'
 
+
+gem 'dotenv-rails', groups: [:development, :test]
+
 group :development, :test do
   gem "dotenv-rails"
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
