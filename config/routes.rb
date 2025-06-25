@@ -11,7 +11,8 @@ Rails.application.routes.draw do
   end
 
 
-  resources :contact_form, only: [:new, :create]
+  # resources :contact_form, only: [:new, :create]
+  resources :contacts, only: [:new, :create]
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
