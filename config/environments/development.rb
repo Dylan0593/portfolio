@@ -31,15 +31,15 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-  user_name: 'api',
-  password: '2cf4be92c1fc3b9614e4c96bf595ea5a',
-  address: 'live.smtp.mailtrap.io',
-  host: 'live.smtp.mailtrap.io',
-  port: '587',
-  authentication: :login
-  }
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  # user_name: 'api',
+  # password: '2cf4be92c1fc3b9614e4c96bf595ea5a',
+  # address: 'live.smtp.mailtrap.io',
+  # host: 'live.smtp.mailtrap.io',
+  # port: '587',
+  # authentication: :login
+  # }
 
 
 
