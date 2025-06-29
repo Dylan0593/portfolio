@@ -2,28 +2,30 @@
 
 <h1 class="center"> My Projects</h1>
 
-<div class="card-trip">
-  <%= image_tag "21-days.png", alt: "21-days" %>
-  <div class="card-trip-infos">
-    <div>
-      <h2>Title here</h2>
-      <p>Short description here!</p>
+<%= link_to "https://21-days-later.dylan-akpan.me/", target: "_blank", rel: "noopener", class: "card-trip-link" do %>
+  <div class="card-trip">
+    <%= image_tag "21-days.png", alt: "21-days" %>
+    <hr>
+    <div class="card-trip-infos">
+      <div>
+        <h2>21 Days Later Web App</h2>
+        <h3>Created a 21-day habit tracker that helps users build better habits together by joining groups and tracking their progress daily. Built with MVC architecture and RESTful APIs, and made more interactive with Stimulus.js and Simple Form for a smoother user experience.</h3>
+      </div>
     </div>
-    <h2 class="card-trip-pricing">£99.99</h2>
   </div>
-</div>
+<% end %>
 
-
-<div class="card-trip">
-  <%= image_tag "powershare.png", alt: "21-days" %>
-  <div class="card-trip-infos">
-    <div>
-      <h2>Title here</h2>
-      <p>Short description here!</p>
+<%= link_to "https://powershare.dylan-akpan.me/", target: "_blank", rel: "noopener", class: "card-trip-link" do %>
+  <div class="card-trip">
+    <%= image_tag "powershare.png", alt: "21-days" %>
+    <div class="card-trip-infos">
+      <div>
+        <h2>Power-Share Web App</h2>
+        <h3>A web application inspired by Airbnb where users can browse listings, view detailed pages for each listing, and leave reviews or comments. The app includes a homepage, a page showing all listings, and individual pages for each listing with user generated content like ratings and feedback.</h3>
+      </div>
     </div>
-    <h2 class="card-trip-pricing">£99.99</h2>
   </div>
-</div>
+<% end %>
 
 
 <%= render 'shared/footer' %>
