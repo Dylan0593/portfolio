@@ -9,6 +9,7 @@ class Contact < MailForm::Base
       subject: "New Contact Message",
       to: "dakpan0593@gmail.com",
       from: %("#{name}" <#{email}>)
+      reply_to: email
     }
   end
 end
