@@ -10,9 +10,7 @@ class Contact < MailForm::Base
       to: "dakpan0593@gmail.com",
       from: 'dakpan0593@gmail.com',
       # from: %("#{name}" <#{email}>),
-      reply_to: contact.email
+      reply_to: email
     }
   end
 end
-
-
